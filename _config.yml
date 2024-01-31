@@ -16,7 +16,7 @@ minimal: true             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "Stand-up.md", title: Stand-up}
+  - {file: "standup.md", title: Stand-up}
   - {file: "poetry.md", title: Şiir}
   - {file: "novel.md", title: Roman}
   - {file: "essay.md", title: Deneme}
