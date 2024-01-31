@@ -1,3 +1,3 @@
 ---
-layout: Stand-up
+layout: stand-up
 ---
