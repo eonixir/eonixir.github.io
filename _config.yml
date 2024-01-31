@@ -22,6 +22,8 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "novel.md", title: Roman}
   - {file: "essay.md", title: Deneme}
   - {file: "story.md", title: Öykü}
+  - {file: "play.md", title: Tiyatro}
+  
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:berkinkirbiyik@tutanota.com"}
