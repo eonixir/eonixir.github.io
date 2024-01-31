@@ -20,6 +20,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "README.md"}
   - {file: "poetry.md", title: Şiir}
   - {file: "novel.md", title: Roman}
+  - {file: "essay.md", title: Deneme}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:berkinkirbiyik@tutanota.com"}
