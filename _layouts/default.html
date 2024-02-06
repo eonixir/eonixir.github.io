@@ -2,7 +2,6 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 <head>
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
-  <script src="{{ site.baseurl }}/assets/js/darklight.js"></script>
   <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
   <meta charset="{{ site.encoding }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,5 +45,7 @@
     {% include menu.html menu=site.external %}
   </footer>
   {% endif %}
+  <script src="{{ site.baseurl }}/assets/js/darklight.js"></script>
+
 </body>
 </html>
