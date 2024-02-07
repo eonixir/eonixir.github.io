@@ -7,6 +7,25 @@
   body > header, body > article, body > footer
     padding: 1.75em calc(40% - 17em)
 
+:root {
+  $background-color: #fff; // Default light mode background color
+  $text-color: #000;       // Default light mode text color
+
+  --background-color: #{$background-color}; // Set variable for background color
+  --text-color: #{$text-color};             // Set variable for text color
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body.dark-mode {
+  --background-color: #333; // Dark mode background color
+  --text-color: #fff;       // Dark mode text color
+}
+
+
 {% if site.minimal %}
 
 body > header
